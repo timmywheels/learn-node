@@ -18,8 +18,6 @@ const bodyOptions = {
     alias: 'b'
 };
 
-
-
 const argv = yargs
     .command('add', 'Add a new note', {
         title: titleOptions,
